@@ -13,3 +13,12 @@ sources:
             data_tests:
               - unique
               - not_null
+
+      - name: product
+        description: tabela fonte com informações dos produtos da Northwind
+
+      - name: category
+        description: tabela fonte com informações das categorias de produtos da Northwind
+
+      - name: supplier
+        description: tabela fonte com informações dos fornecedores da Northwind
