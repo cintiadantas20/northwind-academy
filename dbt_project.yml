@@ -41,12 +41,14 @@ models:
     comercial:
       +materialized: table
       intermediate:
+        + schema: intermediate
 
       marts:
+        + schema: marts
 
     staging:
       +materialized: view
-      -- erp:
-        --+materialized: table
+      + schema: staging
+      erp:
 
 
